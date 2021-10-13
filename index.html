@@ -1,90 +1,51 @@
 <!DOCTYPE html>
-<html>
-<title>Joint Service Cadet Network</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-
-body, html {
-  height: 100%;
-  line-height: 1.8;
-}
-
-/* Full height image header */
-.bgimg-1 {
-  background-position: center;
-  background-size: cover;
-  background-image: url("black.png");
-  min-height: 100%;
-}
-
-.w3-bar .w3-button {
-  padding: 16px;
-}
-</style>
+<html lang="en" class="no-js">
 <head>
-<link rel="icon" href="flag.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Joint Service Cadet Network</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Oxygen:700" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
 </head>
-<body>
+<body class="is-boxed has-animations">
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
+    <div class="body-wrap boxed-container">
+        <header class="site-header text-light">
+            <div class="container">
+                <div class="site-header-inner">
+                  <div class="brand header-brand">
+                        <h1 class="m-0">
 
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-</div>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
 
+        <main>
 
-<!-- Header with full-height image -->
-<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-  <div class="w3-display-left w3-text-white" style="padding:48px 48px 48px 148px">
-    <span class="w3-jumbo w3-hide-small">Joint Service Cadet Network</span><br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Joint Service Cadet Network</span><br>
-    <span class="w3-large">An online community of aspiring military officers nationwide.</span>
-    <p><a href="https://forms.gle/AkbCioXoN7iVRm2X7" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Apply</a></p>
-  </div>
+          <section class="hero text-center text-light">
+      <div class="hero-bg"></div>
+      <div class="hero-particles-container">
+        <canvas id="hero-particles"></canvas>
+      </div>
+              <div class="container-sm">
+                  <div class="hero-inner">
+          <div class="hero-copy">
+                        <h1 class="hero-title mt-0">Joint Service Cadet Network</h1>
+                        <p class="hero-paragraph">An online community of aspiring military officers nationwide.</p>
+                        <div class="hero-cta">
+              <a class="button button-primary button-wide-mobile" href="https://www.cadet.community/">Sign up</a>
+            </div>
+          </div>
 
-</header>
-
-<!-- About Section -->
-
-
-<!-- Footer -->
-
-
-<script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
+          <div class="hero-copy">
 
 
-// Toggle between showing and hiding the sidebar when clicking the menu icon
-var mySidebar = document.getElementById("mySidebar");
-
-function w3_open() {
-  if (mySidebar.style.display === 'block') {
-    mySidebar.style.display = 'none';
-  } else {
-    mySidebar.style.display = 'block';
-  }
-}
-
-// Close the sidebar with the close button
-function w3_close() {
-    mySidebar.style.display = "none";
-}
-</script>
-
+                      
+          </div>
+    <script src="dist/js/main.min.js"></script>
 </body>
 </html>
