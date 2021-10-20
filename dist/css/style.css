@@ -335,10 +335,10 @@ h5,.h5,h6,.h6{
     }
 }
 .text-light{
-    color:#606483
+    color:#767a99
 }
 .text-light a{
-    color:#606483
+    color:#767a99
 }
 .text-light h1,.text-light h2,.text-light h3,.text-light h4,.text-light h5,.text-light h6,.text-light .h1,.text-light .h2,.text-light .h3,.text-light .h4,.text-light .h5,.text-light .h6{
     color:#fff !important
@@ -933,7 +933,7 @@ button,input,select,textarea,label{
     line-height:24px;
     letter-spacing:-0.1px;
     font-weight:600;
-    color:#606483;
+    color:#767a99;
     text-transform:uppercase;
     text-decoration:none;
     line-height:16px;
@@ -1337,7 +1337,7 @@ main{
     z-index:1
 }
 .site-footer-bottom a{
-    color:#606483;
+    color:#767a99;
     text-decoration:none
 }
 .site-footer-bottom a:hover,.site-footer-bottom a:active{
