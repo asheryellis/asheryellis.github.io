@@ -1,0 +1,26 @@
+# site
+title: Jessica Dai
+baseurl: ""
+url: "http://jessicadai.com"
+favicon: "/assets/sample/ico.png"
+
+# bio
+header: Jessica Dai
+# desc: >
+# posts
+# date_format: "%Y"
+# post_title: thing
+# post_date: year
+# post_cat: category
+
+# post detail
+prev-next: true
+
+# build settings
+markdown: kramdown
+# theme: louie
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - bio.md
+  - _drafts
