@@ -1045,10 +1045,16 @@ button,input,select,textarea,label{
     -webkit-animation:heroContent 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) forwards 0.45s;
     animation:heroContent 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) forwards 0.45s
 }
+
+.hero-cta{
+  font-size:0;
+}
+
 .links{
   text-decoration-line: underline;
   text-decoration-thickness: .5px;
-  margin: 15px;
+  margin: 20px;
+  font-size: 20px;
 
 }
 .has-animations.is-loaded .hero .device-mockup{
