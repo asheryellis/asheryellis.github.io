@@ -165,7 +165,8 @@ html{
 body{
     background:#fff;
     -moz-osx-font-smoothing:grayscale;
-    -webkit-font-smoothing:antialiased
+    -webkit-font-smoothing:antialiased;
+    overflow: auto
 }
 hr{
     border:0;
