@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<title>Resources | JSCN</title>
+<link rel="icon" href="flag-square.png">
+</head>
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/tripetto-runner-foundation"></script>
+<script src="https://cdn.jsdelivr.net/npm/tripetto-runner-autoscroll"></script>
+<script src="https://cdn.jsdelivr.net/npm/tripetto-services"></script>
+<script>
+var tripetto = TripettoServices.init({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoidE5UZjZvNWJod1E2aTY5TCs2RUtYeGI3QVhibVpJYXJJZHo3Wnp6YWN3dz0iLCJkZWZpbml0aW9uIjoid0JmbUl1NlZBNGNjYUo2bFVHNlBvWWFrWUxhYUZDazhWUzBQUjhxOFYrcz0iLCJ0eXBlIjoiY29sbGVjdCJ9.Lampr0iOqr9T55oNiSvYDF1VnPBM1A9kRPNbO3LsMVE" });
+
+TripettoAutoscroll.run({
+    element: document.body,
+    definition: tripetto.definition,
+    styles: tripetto.styles,
+    l10n: tripetto.l10n,
+    locale: tripetto.locale,
+    translations: tripetto.translations,
+    attachments: tripetto.attachments,
+    onSubmit: tripetto.onSubmit
+});
+</script>
+</body>
+</html>
