@@ -104,12 +104,12 @@ a {
   display: block;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
-  color: #1a1b1f;
+  color: #5c5c5c;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #32343a;
+  color: black;
 }
 
 a:active {
