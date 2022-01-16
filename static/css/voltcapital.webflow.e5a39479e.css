@@ -1399,6 +1399,19 @@ figcaption {
   max-width: none;
 }
 
+.cards-image-hide {
+  display: block;
+  width: 100%;
+  max-width: none;
+}
+
+@media (max-width: 600px) {
+  .cards-image-hide  {
+        display:none;
+    }
+}
+
+
 .hero-section {
   display: block;
   padding-top: 100px;
@@ -1896,7 +1909,7 @@ figcaption {
 
 .cards-section-3 {
   padding-top: 0px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .heading-2 {
